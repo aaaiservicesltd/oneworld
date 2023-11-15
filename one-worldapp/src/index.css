@@ -76,7 +76,7 @@ img.brand {
     font-weight: 600;
 }
 
-.flex-size .col {
+.flex-size .col-6 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -278,11 +278,7 @@ svg.bi.bi-record2-fill {
     padding-right: 1px;
 }
 
-.renewable-energy h1 {
-    font-size: 45px;
-    font-weight: 600;
 
-}
 
 /* testmonial-------------------------------------------- */
 body {
@@ -598,3 +594,87 @@ footer {
 
 
 /* F */
+
+
+/* mobile view   */
+/* /////////media query mobile view ---------------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .navbar-collapse.show {
+        background: #fff;
+        z-index: 9999;
+        width: 100%;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        padding-left: 28px;
+    }
+    
+    .collapsing {
+        background: #fff;
+        z-index: 9999;
+        width: 100%;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        padding-left: 28px;
+    }
+    
+    
+    .main-section-btn.button-style.text-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-section-btn .btn {
+     
+        font-size: 12px;
+        margin-right: 18px;
+     
+        padding: 12px !important;
+    }
+    p.main-content {
+       
+        font-size: 13px;
+    }
+    .main-section .main-heading {
+    
+        font-size: 32px;
+      
+    }
+    p.flip-p {
+        padding: 0;
+    }
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+    .order-change {
+        order: -19 !important;
+    }
+    .heading-h1main {
+        font-size: 33px;
+    }
+    .invatrion-section-btn a.btn {
+        margin-right: 20px;
+        background: #00c12b;
+        font-size: 15px;
+        margin-top: 25px;
+        color: #fff;
+        padding: 16px !important;
+    }
+    .content-align {
+        padding: 0px;
+    }
+    a.navbar-brand {
+        width: 130px;
+        height: 60px;
+        margin-top: -25px;
+    }
+    .navbar-toggler:focus {
+  
+        box-shadow: none !important;
+    }
+  }
+
+  /* mobile view end  ------- */

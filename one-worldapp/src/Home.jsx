@@ -209,7 +209,7 @@ const Home = () => {
       <div className='third-section flex-size'>
         <div className="container">
           <div className="row">
-            <div className="col ">
+            <div className="col-6 ">
               <div className='Invation-content'>
                 <h1>We Invest Solely In Disruptive Innovation</h1>
                 <p>Disruptive innovation refers to the innovation that transforms expensive or highly sophisticated products or
@@ -223,7 +223,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-6">
               <img src={img} alt='' />
             </div>
 
@@ -419,7 +419,7 @@ const Home = () => {
           <div class="row">
 
 
-            <div class="col">
+            <div class="col-6">
               <div className='renewable-img'>
                 <img src={ecosystem} alt='renew' />
               </div>
@@ -532,7 +532,7 @@ const Home = () => {
         <div class="container ">
           <h1 className='text-center  invest-heading21 heading-h1main '>Why <span className='change-c'>Invest</span>  With Us <hr /></h1>
           <div class="row pt-5">
-            <div class="col">
+            <div class="col-6">
               <div className='investing-pl-content content-align'>
                 <h1>Expertise</h1>
                 <p className='p-2'>Our team possesses a wealth
@@ -542,7 +542,7 @@ const Home = () => {
                   this expertise to make sound investment decisions, ensuring the best possible outcomes for our clients.</p>
               </div>
             </div>
-            <div class="col ">
+            <div class="col-6  order-change">
               <div className='invester-im'>
                 <img src={expertise} alt='flt' />
               </div>
@@ -550,12 +550,12 @@ const Home = () => {
 
           </div>
           <div class="row">
-            <div class="col ">
+            <div class="col-6 ">
               <div className='invester-im'>
                 <img src={recordtop} alt='renew' />
               </div>
             </div>
-            <div class="col">
+            <div class="col-6">
               <div className='investing-pl-content content-align'>
                 <h1>Track Record</h1>
                 <p className='p-2'>Demonstrating our exceptional proficiency,
@@ -568,7 +568,7 @@ const Home = () => {
 
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col-6">
               <div className='investing-pl-content content-align'>
                 <h1>Network</h1>
                 <p className='p-2'>We have fostered strong connections within
@@ -577,7 +577,7 @@ const Home = () => {
                   Our expansive network ensures that we remain at the forefront of this ever-evolving industry.</p>
               </div>
             </div>
-            <div class="col ">
+            <div class="col-6 order-change ">
               <div className='invester-im'>
                 <img src={network} alt='renew' />
               </div>
@@ -585,12 +585,12 @@ const Home = () => {
 
           </div>
           <div class="row">
-            <div class="col ">
+            <div class="col-6 ">
               <div className='invester-im'>
                 <img src={team} alt='renew' />
               </div>
             </div>
-            <div class="col">
+            <div class="col-6">
               <div className='investing-pl-content content-align'>
                 <h1>Transparency</h1>
                 <p className='p-2'>Our unwavering commitment to transparency and professionalism
