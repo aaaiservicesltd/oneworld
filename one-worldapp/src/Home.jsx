@@ -175,7 +175,7 @@ const Home = () => {
         </div>
       </div>
 </div></div> */}
-      </Carousel>;
+      </Carousel>
 
 
 

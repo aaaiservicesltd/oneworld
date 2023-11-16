@@ -16,10 +16,10 @@ const About = () => {
           <div class="container">
           <h1 className='text-center heading-h1main'>About The Company</h1><hr/>
             <div class="row">
-            <div class="col ">
+            <div class="col-6 ">
                 <img src={energyimg} />
               </div>
-              <div class="col about-content">
+              <div class="col-6 about-content">
                 
                 <p>
                 <b>ONE WORLD CAPITAL LTD, established</b><br/>

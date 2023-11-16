@@ -185,7 +185,7 @@ const Blog = () => {
                 <div className='container py-5 mb-5'>
                     <h1 className='text-center'>Frequently Asked Questions  <hr /></h1>
                     <div className='row pt-3'>
-                        <div className='col'>
+                        <div className='col-6'>
                             <Accordion >
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -237,7 +237,7 @@ const Blog = () => {
                                 </Accordion.Item>
                             </Accordion>
                         </div>
-                        <div className='col'>
+                        <div className='col-6'>
                             <Accordion  >
                                 <Accordion.Item eventKey="4">
                                     <Accordion.Header>Accordion Item #5</Accordion.Header>

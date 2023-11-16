@@ -494,9 +494,7 @@ h2.pb-3 {
     background-size: cover;
 }
 
-.contact-from-section .col {
-    margin: 0px 65px;
-}
+
 
 .contact-from-section input[type="submit"] {
     background: #008000e6;
@@ -608,6 +606,7 @@ footer {
         top: 110px;
         left: 0;
         padding-left: 28px;
+        border-top: 1px solid #ccc;
     }
     
     .collapsing {
@@ -618,6 +617,7 @@ footer {
         top: 110px;
         left: 0;
         padding-left: 28px;
+        border-top: 1px solid #ccc;
     }
     
     
@@ -674,6 +674,25 @@ footer {
     .navbar-toggler:focus {
   
         box-shadow: none !important;
+    }
+    .about-us-page h1 {
+        font-size: 30px;
+
+     
+    }
+    .blog-section {
+        margin: 50px 0px;
+    }
+    .contact-from-section .col {
+        margin: 0;
+      
+    }
+    .my-100 {
+        padding: 0px;
+    }
+    .contact-from-section .container {
+        margin-top: 30px;
+        padding: 30px;
     }
   }
 
