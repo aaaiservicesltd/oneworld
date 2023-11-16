@@ -2,13 +2,13 @@ import React from 'react'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 const Footer = () => {
   return (
-    <div><MDBFooter  className='text-center text-lg-start '>
+    <div><MDBFooter  className=' text-lg-start '>
     <section className='d-flex justify-content-center justify-content-lg-between p-4'>
       <div className='me-5 d-none d-lg-block'>
         <span>Get connected with us on social networks:</span>
       </div>
 
-      <div className='d-flex social-media'>
+      <div className='d-flex social-media'>  
         <a href='' className='me-4 text-reset'>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -43,7 +43,7 @@ const Footer = () => {
     </section>
 
     <section className=''>
-      <MDBContainer className='text-center text-md-start mt-5'>
+      <MDBContainer className=' text-md-start mt-5'>
         <MDBRow className='mt-3'>
           <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>

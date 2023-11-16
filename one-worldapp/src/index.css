@@ -664,7 +664,8 @@ footer {
         padding: 16px !important;
     }
     .content-align {
-        padding: 0px;
+        padding: 0;
+        text-align: center;
     }
     a.navbar-brand {
         width: 130px;
@@ -693,6 +694,9 @@ footer {
     .contact-from-section .container {
         margin-top: 30px;
         padding: 30px;
+    }
+    .Invation-content {
+        text-align: center;
     }
   }
 
