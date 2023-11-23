@@ -16,7 +16,7 @@ const Contact = () => {
             'service_4011qjf',
             'template_xubzh6a',
             form.current,
-            'lviEbrgqcLkTZKUpA')
+            'sKTAvKIsW880ZUSRU')
             .then((result) => {
                 console.log(result.text);
                 console.log("message sent successfully")
