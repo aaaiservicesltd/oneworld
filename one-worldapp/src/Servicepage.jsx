@@ -2,6 +2,7 @@ import React from 'react'
 
 import serviceimg from "./image/growth.png"
 import sales from "./image/sales.png"
+import lithum from "./image/lithium1.png"
 import Header from './common/Header'
 import Footer from './common/Footer'
 
@@ -29,6 +30,9 @@ const Servicepage = () => {
       the largest share in the global lithium market.</p>
 
 
+    <div className='lithum-market my-5' >
+    <h3 className='text-center'>Lithium Market, Volume CAGR (%), by Application , Global ,2022-2027</h3>
+    <img src={lithum} alt='salesimg'/></div>
     <img src={sales} alt='salesimg'/>
 
       <p>Lithium batteries are categorized into disposable and rechargeable types.

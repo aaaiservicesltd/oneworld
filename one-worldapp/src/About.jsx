@@ -15,7 +15,7 @@ const About = () => {
         <div className='about-first-section pt-100'>
           <div class="container">
           <h1 className='text-center heading-h1main'>About The Company</h1><hr/>
-            <div class="row">
+            <div class="row pt-3">
             <div class="col-6 ">
                 <img src={energyimg} />
               </div>
@@ -29,9 +29,10 @@ const About = () => {
                   pivotal role in future energy storage and are dedicated to supporting companies in this domain. With an experienced team 
                   and strong industry connections, we gain early access to promising opportunities. Our pledge to transparency and professionalism
                    ensures investors are regularly informed and their queries addressed.
-                 <b>We provide a trusted avenue for investors to capitalize on the growing lithium market, making us a standout choice.
-                we gain early access to promising opportunities. Our pledge to transparency and professionalism
-                   ensures investors</b>
+                   We offer investors a reliable opportunity to tap into the expanding lithium battery market. 
+                   Our unique proposition lies in partnering with top-tier battery minerals suppliers, key players in the surging electric
+                    vehicles and energy storage sectors.
+
                  </p>
               </div>
               <p><b>At ONE WORLD CAPITAL LTD we are dedicated to shaping the future of clean energy through

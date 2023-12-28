@@ -9,6 +9,7 @@ import Pages from './Pages';
 import Contact from './Contact';
 import Blog from './Blog';
 import Servicepage from './Servicepage';
+import Partners from './Partners';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="Contact" element={<Contact />} />
         <Route path='Blog' element={<Blog />} />
         <Route path='services' element={<Servicepage />} />
+        <Route path='partner' element={<Partners/>} />
 
       </Routes>
     </BrowserRouter>

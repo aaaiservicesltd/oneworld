@@ -560,7 +560,7 @@ footer {
 .about-us-page h1 {
     font-size: 53px;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .about-us-page {
@@ -590,7 +590,9 @@ footer {
 
 /* services start ----------------------------------------------------------------------------- */
 
-
+h3.chat-content {
+    color: #083a63;
+}
 /* F */
 
 

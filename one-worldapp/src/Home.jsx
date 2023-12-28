@@ -23,6 +23,7 @@ import expertise from "./image/finance.gif";
 import recordtop from "./image/16.gif";
 import network from "./image/1-A.gif";
 import team from "./image/166.gif";
+import charts from "./image/chart.png";
 
 
 
@@ -415,6 +416,12 @@ const Home = () => {
               supply. This dramatic growth underscores the escalating significance of Li-ion batteries in meeting the world's
               energy needs and highlights their pivotal role in the evolving landscape of energy storage and sustainability.
             </p>
+          </div>
+          <div className='charts-section row'>
+          <div className='col-6'>
+            <h3 className='chat-content'>As western countries speed up, new players are expected to rise as per the chart below.</h3>
+          </div>
+            <div className='col-6'><img src={charts} alt=''/></div>
           </div>
           <div class="row">
 
