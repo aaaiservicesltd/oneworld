@@ -59,7 +59,7 @@ const Home = () => {
         additionalTransfrom={0}
         arrows
         autoPlay={true}
-        autoPlaySpeed={10000}
+        autoPlaySpeed={2000}
         centerMode={false}
         className=""
         containerClass="container-with-dots"
