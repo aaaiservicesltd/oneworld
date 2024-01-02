@@ -49,34 +49,62 @@ const responsive = {
     items: 1
   }
 };
-const response = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 1
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 1
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 1
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1
-  }
-};
+
 
 const Home = () => {
   return (
     <>
       <Header />
-
-
-      <Carousel responsive={response}>
-        <div>     <div className='main-section' style={{ backgroundImage: `url(${background})` }}>
+     <Carousel
+        additionalTransfrom={0}
+        arrows
+        autoPlay={true}
+        autoPlaySpeed={10000}
+        centerMode={false}
+        className=""
+        containerClass="container-with-dots"
+        dotListClass=""
+        draggable
+        focusOnSelect={false}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
+        responsive={{
+          desktop: {
+            breakpoint: {
+              max: 3000,
+              min: 1024
+            },
+            items: 1,
+            partialVisibilityGutter: 40
+          },
+          mobile: {
+            breakpoint: {
+              max: 464,
+              min: 0
+            },
+            items: 1,
+            partialVisibilityGutter: 30
+          },
+          tablet: {
+            breakpoint: {
+              max: 1024,
+              min: 464
+            },
+            items: 1,
+            partialVisibilityGutter: 30
+          }
+        }}
+        showDots={true}
+        sliderClass=""
+        slidesToSlide={1}
+        swipeable
+      >
+        <div >
+        <div className='main-section' style={{ backgroundImage: `url(${background})` }}>
           <div className='main-second'>
             <div className="container  ">
               <div className="row">
@@ -100,7 +128,8 @@ const Home = () => {
             </div>
           </div>
         </div></div>
-        <div>     <div className='main-section' style={{ backgroundImage: `url(${background1})` }}>
+        
+        <div > <div className='main-section' style={{ backgroundImage: `url(${background1})` }}>
           <div className='main-second'>
             <div className="container  ">
               <div className="row">
@@ -126,7 +155,7 @@ const Home = () => {
             </div>
           </div>
         </div></div>
-        <div>     <div className='main-section' style={{ backgroundImage: `url(${background2})` }}>
+        <div> <div className='main-section' style={{ backgroundImage: `url(${background2})` }}>
           <div className='main-second'>
             <div className="container  ">
               <div className="row">
@@ -152,33 +181,8 @@ const Home = () => {
             </div>
           </div>
         </div></div>
-        {/* <div>     <div className='main-section' >
-<div className='main-second'>
-        <div className="container  ">
-          <div className="row">
-<div className='col-6 main-section-content'>
-            <h1 className=' main-heading'>In publishing and graphic design  </h1>
-            <p className=' main-content'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
-              demonstrate the visual form of a document .
-            </p>
 
-            <div className='main-section-btn button-style text-center'>
-              <a className="btn btn-secondary px-5 py-3" href="#" role="button">
-                PRESS RELEASE </a>
-              <a className="btn btn-secondary px-5 py-3" href="#" role="button">
-                EXPLORE RIZE </a></div>
-
-</div>
-<div className='col-6'></div>
-
-
-          </div>
-        </div>
-      </div>
-</div></div> */}
       </Carousel>
-
-
 
 
 

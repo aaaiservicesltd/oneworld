@@ -21,6 +21,13 @@ hr {
     border-top: 3px solid !important;
 
 }
+.react-multiple-carousel__arrow--right {
+    right: 10px !important;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: 10px !important;
+}
 
 .navbar-collapse {
     flex-basis: auto !important;
