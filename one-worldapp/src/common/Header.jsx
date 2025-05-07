@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../image/logo-site.png";
+import logo from "../../public/image/logo-site.png";
 const Header = () => {
   return (
     <Navbar expand="lg" className="">
